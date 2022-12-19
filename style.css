@@ -1,0 +1,162 @@
+body {
+  font-family: "Helvetica Neue";
+  background: #f3f3f4;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 16pt;
+  font-weight: 600;
+  background: #0091D5;
+  padding: 14px 20px;
+  margin: 0 0 10px 0;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.content {
+  margin: 70px auto 10px;
+  max-width: fit-content;
+}
+
+.section {
+  border-bottom: 1px solid #DADADA;
+  box-shadow: 0px 1px #FFF;
+  padding: 4px;
+  margin: 6px 0;
+}
+
+
+.label {
+  font-size: 12pt;
+  color: #63636A;
+}
+
+.value {
+  font-size: 22pt;
+  padding: 4px 0;
+  color: #20283E;
+}
+
+.value.primary {
+  font-size: 32pt;
+  color: #484848;
+}
+
+.unit {
+  font-size: 16pt;
+  color: #7E909A;
+  margin-left: 2px;
+}
+
+.value.primary .unit {
+  font-size: 20pt;
+}
+
+.refresh {
+  color: #1C4E80;
+  text-decoration: none;
+}
+
+.toolbar {
+  text-align: center;
+}
+
+button {
+  font-size: 14pt;
+  background: #fff;
+  padding: 6px 8px;
+  margin: 4px;
+  color: #0091D5;
+  border: 1px solid #0091D5;
+  border-radius: 5px;
+}
+
+button.tab {
+  font-size: 12pt;
+  background: #f3f3f4;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: inset 0px -2px 2px 0px #ddd;
+
+}
+
+button.tab.active {
+  background: #fff;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+button.primary {
+  background: #0091D5;
+  color: #FFF;
+}
+
+.tab-area {
+  display: block;
+  background-color: #FFF;
+  min-height: 100px;
+  border: 1px solid #0091D5;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  padding: 12px 12px 24px 12px;
+}
+
+.toggle {
+  height: 20px;
+  width: 40px;
+  border: 2px solid #6AB187;
+  border-radius: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.toggle.off {
+  border: 2px solid #999;
+}
+
+.toggle .tab {
+  height: 18px;
+  width: 20px;
+  margin: 1px;
+  position: absolute;
+  right: 0;
+  background: #6AB187;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.toggle.off .tab  {
+  right: auto;
+  left: 0;
+  background: #999;
+}
+
+.input-label {
+  font-size: 11pt;
+  color: #63636A; 
+  margin: 20px 0 2px;
+  text-transform: uppercase;
+}
+
+.input {
+  font-size: 13pt;
+  padding: 4px 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  width: 90%;
+}
+
+#response {
+  padding: 6px;
+}
+
+.hidden {
+  display: none;
+}
