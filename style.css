@@ -19,6 +19,10 @@ body {
 
 .content {
   margin: 70px auto 10px;
+}
+
+.form {
+  margin: 0 auto;
   max-width: fit-content;
 }
 
@@ -36,7 +40,7 @@ body {
 }
 
 .value {
-  font-size: 22pt;
+  font-size: 15pt;
   padding: 4px 0;
   color: #20283E;
 }
@@ -155,6 +159,8 @@ button.primary {
 
 #response {
   padding: 6px;
+  margin: 10px;
+  text-transform: capitalize;
 }
 
 .hidden {
