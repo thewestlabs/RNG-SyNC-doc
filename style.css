@@ -21,6 +21,21 @@ body {
   margin: 70px auto 10px;
 }
 
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 49% 49%;
+  grid-row: auto auto;
+}
+
+.grid-item {
+  padding: 6px 12px;
+  display: inline-grid;
+  background: #f6f6f8;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #eee;
+}
+
 .form {
   margin: 0 auto;
   max-width: fit-content;
@@ -37,10 +52,12 @@ body {
 .label {
   font-size: 12pt;
   color: #63636A;
+  margin: 4px 0 2px;
+  text-transform: capitalize;
 }
 
 .value {
-  font-size: 15pt;
+  font-size: 16pt;
   padding: 4px 0;
   color: #20283E;
 }
