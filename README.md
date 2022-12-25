@@ -4,7 +4,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 ### Configuration
 **A. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
-  2. Power up the device by connecting to Rover using RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/).
+  2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/).
 
 **B. Using your own Pico W**
   1. Connect Pico to your laptop while pressing BOOTSEL button and copy the firmware [uf2](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2) file to Pico.
@@ -16,9 +16,9 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
   5. Configure using step A.2 
 
 
-Your RNG SyNC module is now ready to deploy, just connect it to your Renogy charge controller using RJ12 cable. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics.
+Your RNG SyNC module is now ready to deploy, just connect it to your Rover using RJ12 cable. If you are using certain low power models like Wanderer/ Adventurer, remove the **EN/5V** jumper pin and power the device through USB. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
 
-**LED color codes**
+### LED color codes
 
 After the initial bootstrap settles in:
   1. 🟢 Green blinking every 3 seconds - Device is healthy and connected
@@ -27,7 +27,7 @@ After the initial bootstrap settles in:
   4. 🔴 Red steady - Fatal error occured
 
 ### Home assistant MQQT configuration
-Enable MQQT throug the BLE app and add the following to your home assistant `configuration.yaml`
+Enable and configure MQQT using the BLE app and add the following to your home assistant `configuration.yaml`
 ```yaml
 mqtt:
   sensor:
@@ -64,6 +64,7 @@ mqtt:
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_source=sellers_cyrils&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 https://www.tindie.com/products/27955/
+
 
 ### Disclaimers
 - ¹Renogy is trademark of RNG INTERNATIONAL, INC.
