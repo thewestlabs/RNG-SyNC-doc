@@ -63,8 +63,3 @@ mqtt:
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_source=sellers_cyrils&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
 https://www.tindie.com/products/27955/
-
-### References
-- Modbus library is based on [techbase123/micropython-modbus](https://github.com/techbase123/micropython-modbus)
-- Renogy library is based on [corbinbs/solarshed](https://github.com/corbinbs/solarshed)
-- ¹Renogy is trademark of RNG INTERNATIONAL, INC. This software is provided only as a DIY project for your home.
