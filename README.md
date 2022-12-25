@@ -16,7 +16,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
   5. Configure using step A.2 
 
 
-Your RNG SyNC module is now ready to deploy, just connect it to your Renogy charge controller using RJ12 cable. Check [Wiki](https://thewestlabs.github.io/RNG-SyNC-doc/wiki) for more details on hardware and schematics.
+Your RNG SyNC module is now ready to deploy, just connect it to your Renogy charge controller using RJ12 cable. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics.
 
 **LED color codes**
 After the initial bootstrap settles in:
