@@ -64,6 +64,6 @@ mqtt:
 
 https://www.tindie.com/products/27955/
 
-### Note
+### Disclaimers
 - ¹Renogy is trademark of RNG INTERNATIONAL, INC.
 - This device and software is provided only as a DIY project for your home, the developer is not liable for any damages caused by it.
