@@ -18,6 +18,13 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 
 Your RNG SyNC module is now ready to deploy, just connect it to your Renogy charge controller using RJ12 cable. Check [Wiki](https://thewestlabs.github.io/RNG-SyNC-doc/wiki) for more details on hardware and schematics.
 
+**LED color codes**
+After the initial bootstrap settles in:
+  1. 🟢 Green blinking every 3 seconds - Device is healthy and connected
+  2. 🟡 Yellow blinking every 3 seconds - Device is healthy but not connected to rover
+  3. ⭕ Red blinking - Temporary error
+  4. 🔴 Red steady - Fatal error occured
+
 ### Home assistant MQQT configuration
 Enable MQQT throug the BLE app and add the following to your home assistant `configuration.yaml`
 ```yaml
