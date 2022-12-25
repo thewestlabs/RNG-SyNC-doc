@@ -19,6 +19,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 Your RNG SyNC module is now ready to deploy, just connect it to your Renogy charge controller using RJ12 cable. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics.
 
 **LED color codes**
+
 After the initial bootstrap settles in:
   1. 🟢 Green blinking every 3 seconds - Device is healthy and connected
   2. 🟡 Yellow blinking every 3 seconds - Device is healthy but not connected to rover
@@ -64,6 +65,7 @@ mqtt:
 
 https://www.tindie.com/products/27955/
 
-### Disclaimers
-- ¹Renogy is trademark of RNG INTERNATIONAL, INC.
-- This device and software is provided only as a DIY project for your home, the developer is not liable for any damages caused by it.
+### References
+- Modbus library is based on [techbase123/micropython-modbus](https://github.com/techbase123/micropython-modbus)
+- Renogy library is based on [corbinbs/solarshed](https://github.com/corbinbs/solarshed)
+- ¹Renogy is trademark of RNG INTERNATIONAL, INC. This software is provided only as a DIY project for your home.
