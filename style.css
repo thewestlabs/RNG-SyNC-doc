@@ -52,13 +52,13 @@ body {
 .label {
   font-size: 12pt;
   color: #63636A;
-  margin: 4px 0 2px;
+  margin: 4px 0;
   text-transform: capitalize;
 }
 
 .value {
   font-size: 16pt;
-  padding: 4px 0;
+  padding: 2px 0;
   color: #20283E;
 }
 
