@@ -4,7 +4,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 ### Configuration
 **A. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
-  2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/).
+  2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-with-BLE-app).
 
 **B. Using your own Pico W**
   1. Connect Pico to your laptop while pressing BOOTSEL button and copy the firmware [uf2](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2) file to Pico.
@@ -26,41 +26,8 @@ After the initial bootstrap settles in:
   3. ⭕ Red blinking - Temporary error
   4. 🔴 Red steady - Fatal error occured
 
-### Home assistant MQQT configuration
-Enable and configure MQQT using the BLE app and add the following to your home assistant `configuration.yaml`. More details on configurations can be found on [Wiki/Configuring with BLE app](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-with-BLE-app)
-
-```yaml
-mqtt:
-  sensor:
-    - name: "Battery voltage"
-      state_topic: "rngsolar"
-      unit_of_measurement: "V"
-      value_template: "{{ value_json.battery_voltage }}"
-    - name: "Battery SOC"
-      state_topic: "rngsolar"
-      unit_of_measurement: "%"
-      value_template: "{{ value_json.battery_percentage }}"
-    - name: "Solar power"
-      state_topic: "rngsolar"
-      unit_of_measurement: "W"
-      value_template: "{{ value_json.pv_power }}"
-    - name: "Load power"
-      state_topic: "rngsolar"
-      unit_of_measurement: "W"
-      value_template: "{{ value_json.load_power }}"
-    - name: "Power generation today"
-      state_topic: "rngsolar"
-      unit_of_measurement: "Wh"
-      value_template: "{{ value_json.power_generation_today }}"
-    - name: "Power consumption today"
-      state_topic: "rngsolar"
-      unit_of_measurement: "Wh"
-      value_template: "{{ value_json.power_consumption_today }}"
-    - name: "Temperature"
-      state_topic: "rngsolar"
-      unit_of_measurement: "°F"
-      value_template: "{{ value_json.controller_temperature_f }}"
-```
+### PVOutput/ Home assistant / MQQT
+Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQQT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQQT)
 
 ### Where to buy
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_source=sellers_cyrils&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
