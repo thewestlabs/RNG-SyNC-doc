@@ -10,7 +10,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
   1. Connect Pico to your laptop while pressing BOOTSEL button and copy the firmware [uf2](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2) file to Pico.
   2. Download and install thonny editor ([thonny.org](https://thonny.org/)), enable View -> File
   3. Download and unzip the RNG-SyNC source code provided.
-  4. Upload the entire code to your Pico W using Thonny editor (Do not press BOOTSEL now, [read more](https://www.electromaker.io/blog/article/electromaker-educator-getting-started-with-the-pico-w)) 
+  4. Upload the entire code to your Pico W using Thonny editor (Do not press BOOTSEL now, [read more](https://www.electromaker.io/blog/article/electromaker-educator-getting-started-with-the-pico-w)).
 <img width="700px" src="https://user-images.githubusercontent.com/111796612/202618561-c0973ac7-efcb-4c31-af6c-e20cfc7628ea.png" />
 
   5. Configure using step A.2 
@@ -27,7 +27,7 @@ After the initial bootstrap settles in:
   4. 🔴 Red steady - Fatal error occured
 
 ### PVOutput/ Home assistant / MQQT
-Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQQT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQQT)
+Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQQT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQQT).
 
 ### Where to buy
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_source=sellers_cyrils&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
