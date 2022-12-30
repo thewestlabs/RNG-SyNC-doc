@@ -4,7 +4,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 ### Configuration
 **A. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
-  2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
+  2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
 **B. Using your own Pico W**
   1. Connect Pico to your laptop while pressing BOOTSEL button and copy the firmware [uf2](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2) file to Pico.
