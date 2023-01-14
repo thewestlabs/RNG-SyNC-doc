@@ -29,6 +29,18 @@ After the initial bootstrap settles in:
 ### PVOutput/ Home assistant / MQQT
 Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQQT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQQT).
 
+### Supported devices
+
+| Device | Tested | Comment |
+| -------- | :--------: | --------|
+| Renogy Rover | ✅ |  |
+| Renogy Wanderer | ✅ | Needs USB power |
+| Renogy Adventurer | ✅ | Needs USB power |
+| RICH SOLAR 20/40/60 | ❓ |  |
+| SRNE ML2420/30/40 | ❓ |  |
+| SRNE ML4830N15 | ❓ |  |
+| SRNE ML4860 | ❓ |  |
+
 ### Where to buy
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_source=sellers_cyrils&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
