@@ -26,8 +26,8 @@ After the initial bootstrap settles in:
   3. ⭕ Red blinking - Temporary error
   4. 🔴 Red steady - Fatal error occured
 
-### PVOutput/ Home assistant / MQQT
-Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQQT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQQT).
+### PVOutput/ Home assistant / MQTT
+Enable and configure cloud uploads using the BLE app. More details can be found on [Wiki/Configuring MQTT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQTT).
 
 ### Supported devices
 
