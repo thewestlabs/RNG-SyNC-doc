@@ -17,6 +17,12 @@ body {
   top: 0;
 }
 
+.subtitle {
+  font-size: 12pt;
+  color: #666;
+  margin: 4px 8px;
+}
+
 .content {
   margin: 70px auto 10px;
 }
