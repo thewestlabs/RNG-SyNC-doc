@@ -16,7 +16,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
   5. Configure using step A.2 
 
 
-Your RNG SyNC module is now ready to deploy, just connect it to your Rover using RJ12 cable. If you are using certain low power models like Wanderer/ Adventurer, remove the **EN/5V** jumper pin and power the device through USB. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
+Your RNG SyNC module is now ready to deploy, just connect it to your Rover using RJ12 cable. If you are using certain low power models like Wanderer/ Adventurer, its reccomended to remove the **5V** jumper pin and power the device through USB. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
 
 ### LED color codes
 
