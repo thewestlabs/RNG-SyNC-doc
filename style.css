@@ -190,7 +190,7 @@ button.special {
 #response {
   padding: 6px 20px;
   margin: 0 auto;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .hidden {
