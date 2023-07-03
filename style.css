@@ -125,6 +125,13 @@ button.primary {
   color: #FFF;
 }
 
+button.special {
+  border-color: orange;
+  color: orange;
+  background: none;
+  font-size: 13pt;
+}
+
 .tab-area {
   display: block;
   background-color: #FFF;
@@ -182,7 +189,7 @@ button.primary {
 
 #response {
   padding: 6px 20px;
-  margin: 10px auto;
+  margin: 0 auto;
   text-transform: capitalize;
 }
 
