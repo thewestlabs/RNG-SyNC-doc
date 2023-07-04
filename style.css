@@ -56,14 +56,14 @@ body {
 
 
 .label {
-  font-size: 12pt;
+  font-size: 11pt;
   color: #63636A;
   margin: 4px 0;
   text-transform: capitalize;
 }
 
 .value {
-  font-size: 16pt;
+  font-size: 15pt;
   padding: 2px 0;
   color: #20283E;
 }
@@ -189,7 +189,7 @@ button.special {
 
 #response {
   padding: 6px 20px;
-  margin: 0 auto;
+  margin: 4px auto 0;
   /* text-transform: capitalize; */
 }
 
