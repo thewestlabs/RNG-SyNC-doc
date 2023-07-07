@@ -132,6 +132,13 @@ button.special {
   font-size: 13pt;
 }
 
+button.critical {
+  border-color: red;
+  color: red;
+  background: none;
+  font-size: 13pt;
+}
+
 .tab-area {
   display: block;
   background-color: #FFF;
@@ -191,6 +198,10 @@ button.special {
   padding: 6px 20px;
   margin: 4px auto 0;
   /* text-transform: capitalize; */
+}
+
+#response .error {
+  color: red;
 }
 
 .hidden {
