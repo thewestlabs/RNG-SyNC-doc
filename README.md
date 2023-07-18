@@ -22,7 +22,7 @@ Your RNG SyNC module is now ready to deploy, just connect it to your Rover using
 
 After the initial bootstrap settles in:
   1. 🟢 Green blinking every 3 seconds - Device is healthy and connected
-  2. 🟡 Yellow blinking every 3 seconds - Device is healthy but not connected to rover
+  2. 🟡 Yellow blinking every 3 seconds - Device is healthy but not connected to either Rover or WiFi
   3. ⭕ Red blinking - Temporary error
   4. 🔴 Red steady - Fatal error occured
 
