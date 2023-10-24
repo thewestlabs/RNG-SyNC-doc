@@ -46,5 +46,5 @@ Enable and configure cloud uploads using the BLE app. More details can be found 
 
 
 ### Disclaimers
-- ¹Renogy is trademark of RNG INTERNATIONAL, INC.
+- ¹Renogy and all other trademarks used here are the property of their respective owners.
 - This device and software is provided only as a DIY project for your home, the developer is not liable for any damages caused by it.
