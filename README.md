@@ -5,7 +5,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 **a. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
   2. Connect the RNG SyNC module to your Rover using RJ12 cable. If you are using Wanderer/ Adventurer remove the **5V** jumper pin on PCB and power the device through USB.
-  3. Configure using the bluetooth using this webpage -> [RNG SyNC App](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki/BLE App doc](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
+  3. Configure with bluetooth using this webpage -> [RNG SyNC App](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki/BLE App doc](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
 **b. Using your own Pico W**
 
