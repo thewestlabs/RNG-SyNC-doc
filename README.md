@@ -2,21 +2,18 @@
 RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout the product [here](https://www.tindie.com/products/27955/). Tested with Rover/Wanderer/Adventurer series charge controllers.
 
 ### Configuration
-**A. Pre-installed Pico W**
+**a. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
   2. Power up the device by connecting to USB or RJ12 cable and configure via BLE using this webpage -> [RNG SyNC Configurator](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
+  3. Your RNG SyNC module is now ready to deploy, just connect it to your Rover using RJ12 cable. If you are using low power models like Wanderer/ Adventurer, its reccomended to remove the **5V** jumper pin and power the device through USB. 
 
-**B. Using your own Pico W**
-  1. Connect Pico to your laptop while pressing BOOTSEL button and copy the firmware [uf2](https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2) file to Pico.
-  2. Download and install thonny editor ([thonny.org](https://thonny.org/)), enable View -> File
-  3. Download and unzip the RNG-SyNC source code provided.
-  4. Upload the entire code to your Pico W using Thonny editor (Do not press BOOTSEL now, [read more](https://www.electromaker.io/blog/article/electromaker-educator-getting-started-with-the-pico-w)).
-<img width="700px" src="https://user-images.githubusercontent.com/111796612/202618561-c0973ac7-efcb-4c31-af6c-e20cfc7628ea.png" />
-
-  5. Configure using step A.2 
+Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
 
 
-Your RNG SyNC module is now ready to deploy, just connect it to your Rover using RJ12 cable. If you are using certain low power models like Wanderer/ Adventurer, its reccomended to remove the **5V** jumper pin and power the device through USB. Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
+**b. Using your own Pico W**
+
+Check manual configuration doc [wiki/Manual-configuration](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Manual-configuration)
+
 
 ### LED color codes
 
