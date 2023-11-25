@@ -21,7 +21,8 @@ body {
 .subtitle {
   font-size: 12pt;
   color: #666;
-  margin: 4px 8px;
+  margin: auto 8px;
+  font-weight: 500;
 }
 
 .content {
@@ -138,6 +139,20 @@ button.critical {
   color: red;
   background: none;
   font-size: 13pt;
+}
+
+button.subtle {
+  border: none;
+  color: #0091D5;
+  background: none;
+  font-size: 12pt;
+  margin: 0;
+}
+
+.top-status {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .tab-area {

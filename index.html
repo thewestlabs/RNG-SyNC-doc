@@ -9,7 +9,10 @@
 <div class="title">RNG SyNC</div>
 <div class="content">
   <div class="form hide hidden">
-    <div id="device_name" class="subtitle"></div>
+    <div class="top-status">
+      <span id="device_name" class="subtitle"></span>
+      <button id="stats_restart" class="subtle hide hidden">🔄 Restart</button>
+    </div>
     <div class="section"> </div>
     <button id="stats" class="tab active" data-fields="stats">Home</button>
     <button id="configure_wifi" class="tab" data-fields="wifi_ssid,wifi_password">WiFi</button>
@@ -23,9 +26,9 @@
   <div class="section"> </div>
   <div class="toolbar">
     <button id="search">Search device</button>
-    <button id="restart" class="critical hidden">Restart</button>
+    <button id="restart" class="critical hide hidden">Restart</button>
     <button id="disconnect" class="hide hidden">Disconnect</button>
-    <button id="sync_time" class="special hidden">Sync time</button>
+    <button id="sync_time" class="special hide hidden">Sync time</button>
     <button id="save" class="primary hide hidden">Save</button>
   </div>
 
