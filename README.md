@@ -11,7 +11,7 @@ RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout th
 
 **b. Using your own Pico W**
 
-Check manual configuration steps [wiki/Manual-configuration](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Manual-configuration)
+If you opted for your own Pico, check manual configuration steps [wiki/Manual-configuration](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Manual-configuration)
 
 ### Connector cable
 
