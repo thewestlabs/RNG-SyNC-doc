@@ -30,8 +30,8 @@ After the initial bootstrap settles in:
 Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
 
 ### Monitoring/ PVOutput/ Home assistant / MQTT
-1. You can either monitor through WiFi (same network only)- Type the IP address shown in the BLE app into your browser tab.
-2.  Or upload data to a third party service. More details can be found at [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
+1. You can either monitor through WiFi (local network only)- Type the IP address shown in the BLE app into your browser tab.
+2. Or configure data upload to a third party service. You can do this by using the bluetooth app [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
 ### Supported devices
 
