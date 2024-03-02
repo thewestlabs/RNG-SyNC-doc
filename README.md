@@ -43,6 +43,9 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 | RICH SOLAR 20/40/60 | ❓ |  |
 | SRNE ML24/ML48 series | ❓ |  |
 
+### Upgrade firmware
+If you have an older version of the device and would like to update to latest firmware, contact me through store page with your order number. Check [changelog](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Micropython-Changelog) to know more about latest features.
+
 ### Where to buy
 <a href="https://www.tindie.com/stores/westlabs/?ref=offsite_badges&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
