@@ -38,8 +38,7 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 | Device | Tested | Comment |
 | -------- | :--------: | --------|
 | Renogy Rover | ✅ |  |
-| Renogy Wanderer | ✅ | Needs USB power |
-| Renogy Adventurer | ✅ | Needs USB power |
+| Renogy Wanderer/Adventurer | ✅ | Needs USB power |
 | RICH SOLAR 20/40/60 | ❓ |  |
 | SRNE ML24/ML48 series | ❓ |  |
 
