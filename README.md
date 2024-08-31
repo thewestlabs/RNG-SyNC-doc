@@ -33,6 +33,8 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 1. You can either monitor through WiFi (local network only)- Type the IP address shown in the BLE app into your browser tab (like `192.168.0.XX`).
 2. Or configure data upload to a third party service. You can do this by using the bluetooth app [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
+<img src=https://github.com/user-attachments/assets/9bc0caa9-9b97-4485-a00e-19d744b75eb4 width=240px />
+
 ### Supported devices
 
 | Device | Tested | Comment |
