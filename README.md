@@ -1,7 +1,7 @@
 # RNG SyNC
 RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout the product [here](https://www.tindie.com/products/27955/). Tested with Rover/Wanderer/Adventurer series charge controllers.
 
-<img src="https://github.com/thewestlabs/RNG-SyNC-doc/assets/111796612/c814bc65-79ce-46b3-81dc-db1501bf9b8b" width="320px" />
+<img src="https://github.com/user-attachments/assets/1794dc34-1887-495e-a226-ba6a64b3ca0c" width="320px" />
 
 ### Configuration
 **a. Pre-installed Pico W**
