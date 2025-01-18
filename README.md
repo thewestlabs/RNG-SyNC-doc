@@ -1,12 +1,12 @@
 # RNG SyNC
-RNG SyNC is a Renogy¹ RS232 compatible  WiFi and Bluetooth adapter. Checkout the product [here](https://www.tindie.com/products/27955/). Tested with Rover/Wanderer/Adventurer series charge controllers.
+RNG SyNC is a Renogy¹ RS232/RS485 compatible  WiFi and Bluetooth adapter. Checkout the product [here](https://www.tindie.com/products/27955/). Tested with Rover/Wanderer/Adventurer series charge controllers.
 
 <img src="https://github.com/user-attachments/assets/88e5e4ca-e196-4991-b366-596071b50a23" width="320px" />
 
 ### Configuration
 **a. Pre-installed Pico W**
   1. All pre-installed Picos come with firmware already baked into it.
-  2. Connect the RNG SyNC module to your Rover using RJ12/RJ45 cable. If you are using Wanderer/ Adventurer flip the switch on PCB to `WND` positon and power the device through USB.
+  2. Connect the RNG SyNC module to your Rover using RJ12/RJ45 cable. If you are using Wanderer/ Adventurer flip the switch on PCB to `R485/WND` positon and power the device through USB.
   3. Configure with bluetooth using this webpage -> [RNG SyNC App](https://thewestlabs.github.io/RNG-SyNC-doc/). Read more about using the app on [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
 **b. Using your own Pico W**
@@ -33,7 +33,7 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 
 ### WiFi Monitoring/ PVOutput/ Home assistant / MQTT
 1. You can either monitor through [WiFi page](https://github.com/thewestlabs/RNG-SyNC-doc/wiki#wifi-monitoring) (local network only)- Type the IP address shown in the BLE app into your browser tab (like `http://192.168.0.XX`).
-2. Or configure data upload to a third party service. You can do this by using the bluetooth app [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
+2. Or configure data upload to a third party service like PVOutput/Home Assistant. You can do this by using the bluetooth app [Wiki/BLE App](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/BLE-App).
 
 ### Supported devices
 
