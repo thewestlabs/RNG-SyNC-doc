@@ -57,6 +57,7 @@ class PicoSerial {
   }
 
   async readFromPico () {
+    this.reading = true
     try {
       while (this.reading) {
         const { value } = await this.reader.read()
@@ -76,7 +77,7 @@ class PicoSerial {
 
   async stop() {
     this.reading = false
-    await this.reader.cancel();
+    await this.reader.cancel()
     await this.reader.releaseLock()
     await this.pico.close()
     this.onDisconnect()
