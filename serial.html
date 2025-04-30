@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content=#0091D5 />
+    <link rel="stylesheet" href="serial.css">
+  </head>
+<div class="title">VE SyNC</div>
+<div class="content">
+  <div class="form hide hidden">
+    <div class="top-status">
+      <span id="device_name" class="subtitle"></span>
+      <!-- <button id="stats_restart" class="subtle hide hidden">🔄 Restart</button> -->
+    </div>
+    <div class="section"> </div>
+    <textarea id="log" class="tab-area" ></textarea>
+  </div>
+  <div id="response"></div>
+
+  <div class="section"> </div>
+  <div class="toolbar">
+    <button id="search">Search device</button>
+    <button id="disconnect" class="hide hidden">Disconnect</button>
+  </div>
+
+</div>
+<script src="./js/PicoSerial.js"></script>
+<script src="./js/ymodem.js"></script>
+</html>
