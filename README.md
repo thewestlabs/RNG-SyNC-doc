@@ -44,6 +44,9 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 | RICH SOLAR 20/40/60 | ❓ |  |
 | SRNE ML24/ML48 series | ❓ |  |
 
+### Troubleshooting
+In case you face any issues (data not uploading etc), please follow the instructions in the [Troubleshooting](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Troubleshooting) page.
+
 ### Upgrade firmware
 If you have an older version of the device and would like to update to latest firmware, contact me through store page with your order number. Check [changelog](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Micropython-Changelog) to know more about latest features.
 
