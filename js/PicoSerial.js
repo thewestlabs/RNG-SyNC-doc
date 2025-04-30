@@ -28,7 +28,7 @@ class PicoSerial {
     this.log(`[Pico connected]\n\n`)
     this.reader = this.pico.readable.getReader()
     setTimeout(this.readFromPico.bind(this), 10)
-    this.pico.addEventListener('disconnect', this.onDisconnect)
+    this.pico.addEventListener('disconnect', this.onDisconnect.bind(this))
   }
 
   onConnect() {
@@ -40,8 +40,8 @@ class PicoSerial {
   }
 
   onDisconnect() {
-    this.log(`\n[Pico disconnected]\n\n`)
     this.pico = null
+    this.log(`\n[Pico disconnected]\n\n`)
     document.querySelector('#disconnect').classList.add('hidden');
     document.querySelector('#search').classList.remove('hidden');
   }
