@@ -15,7 +15,7 @@ If you opted for your own Pico, check manual configuration steps [wiki/Manual-co
 
 ### Connector cable
 
-- You will need an RJ12 cable to connect to your charge controller. You can buy one from Amazon ([link](https://www.amazon.com/dp/B08BHVF6XS)) or your local store. Make sure it's **6P6C** marked as **"straight wired"**.
+- You will need an RJ12 cable to connect to your charge controller if using RS232. You can buy one from Amazon ([link](https://www.amazon.com/dp/B08BHVF6XS)) or your local store. Make sure it's **6P6C** marked as **"straight wired"**.
 
   <img src=https://github.com/thewestlabs/RNG-SyNC-doc/assets/111796612/4d97e112-0234-42d0-9187-59e8e19c4cdc width=380px />
 
