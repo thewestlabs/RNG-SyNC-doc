@@ -29,14 +29,12 @@ After the initial bootstrap settles in:
   3. ⭕ Red blinking - Temporary error
   4. 🔴 Red steady - Fatal error occured
 
-Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
-
 ### WiFi Monitoring/ PVOutput/ Home assistant / MQTT
-1. You can either monitor through [WiFi page](https://github.com/thewestlabs/RNG-SyNC-doc/wiki#wifi-monitoring) (local network only)- Type the IP address shown in the BLE app into your browser tab (like `http://192.168.0.XX`) or upload your data to third party services.
-2. [How to configure MQTT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQTT)
-3. [How to configure  PVOutput](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-PVOutput)
-4. [How to configure Custom Logging](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-custom-logging)
-5. [Troubleshooting](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Troubleshooting)
+You can either monitor through [WiFi page](https://github.com/thewestlabs/RNG-SyNC-doc/wiki#wifi-monitoring) (local network only)- Type the IP address shown in the BLE app into your browser tab (like `http://192.168.0.XX`) or upload your data to third party services.
+* [How to configure MQTT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQTT)
+* [How to configure  PVOutput](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-PVOutput)
+* [How to configure Custom Logging](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-custom-logging)
+* [Troubleshooting](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Troubleshooting)
 
 ### Supported devices
 
@@ -46,9 +44,6 @@ Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details 
 | Renogy Wanderer/Adventurer | ✅ | Needs USB power |
 | RICH SOLAR 20/40/60 | ❓ |  |
 | SRNE ML24/ML48 series | ❓ |  |
-
-### Troubleshooting
-In case you face any issues (data not uploading etc), please follow the instructions in the [Troubleshooting](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Troubleshooting) page.
 
 ### Upgrade firmware
 If you have an older version of the device and would like to update to latest firmware, contact me through store page with your order number. Check [changelog](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Micropython-Changelog) to know more about latest features.
