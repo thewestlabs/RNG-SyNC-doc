@@ -32,7 +32,7 @@ After the initial bootstrap settles in:
 Check [Wiki](https://github.com/thewestlabs/RNG-SyNC-doc/wiki) for more details on hardware and schematics. 
 
 ### WiFi Monitoring/ PVOutput/ Home assistant / MQTT
-1. You can eithrr monitor through [WiFi page](https://github.com/thewestlabs/RNG-SyNC-doc/wiki#wifi-monitoring) (local network only)- Type the IP address shown in the BLE app into your browser tab (like `http://192.168.0.XX`) or upload your data to third party services.
+1. You can either monitor through [WiFi page](https://github.com/thewestlabs/RNG-SyNC-doc/wiki#wifi-monitoring) (local network only)- Type the IP address shown in the BLE app into your browser tab (like `http://192.168.0.XX`) or upload your data to third party services.
 2. [How to configure MQTT](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-MQTT)
 3. [How to configure  PVOutput](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-PVOutput)
 4. [How to configure Custom Logging](https://github.com/thewestlabs/RNG-SyNC-doc/wiki/Configuring-custom-logging)
