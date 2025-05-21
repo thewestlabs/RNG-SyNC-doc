@@ -15,7 +15,7 @@ If you opted for your own Pico, check manual configuration steps [wiki/Manual-co
 
 ### Connector cable
 
-- **RS232 variant**: You will need an RJ12 cable to connect to your charge controller with an RS232 port. You can buy one from Amazon or your local store. Make sure it's **6P6C** marked as **"straight wired"**  ([link](https://www.amazon.com/dp/B08BHVF6XS)).
+- **RS232 variant**: You will need an RJ12 cable to connect to your charge controller with an RS232 port. You can buy one from Amazon or your local store. Make sure it's **6P6C** marked as **"straight wired"**  ([link](https://www.amazon.com/dp/B08BJ11QVK)).
 - **RS485 variant**: You need RJ45 patch cable if buying the RS485 variant ([link](https://www.amazon.com/dp/B014ULB1VQ/?th=1))
 
 ### LED color codes
